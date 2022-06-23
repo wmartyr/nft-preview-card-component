@@ -1,3 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  border: dashed black 1px;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary-soft-blue: hsl(215, 51%, 70%);
+  --color-primary-cyan: hsl(178, 100%, 50%);
+  --color-main-background: hsl(217, 54%, 11%);
+  --color-card-background: hsl(216, 50%, 16%);  
+  --color-line: hsl(215, 32%, 27%);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-main-background);
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--color-card-background);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.main-image {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+
+
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,4 +46,4 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+  }
