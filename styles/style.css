@@ -49,6 +49,7 @@ body {
 .description {
   color: var(--color-primary-soft-blue);
   font-size: 1.1rem;
+  font-weight:300;
 }
 
 .details {
@@ -58,13 +59,13 @@ body {
 }
 
 .icons-text-align {
-  font-weight: bold;
   display: flex;
   align-items: center;
 }
 
 .price {
   color: var(--color-primary-cyan);
+  font-weight: bold;
 }
 
 .icon {
@@ -80,6 +81,25 @@ hr {
   border: none;
   background-color: var(--color-line);
 }
+
+.author-line {
+  display: flex;
+  align-items: center;
+  color: var(--color-primary-soft-blue);
+}
+.author-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid 1px white;
+  margin-right: 15px;
+}
+
+.author-name {
+  color: white;
+  margin-left: 4px;
+}
+
 
 .attribution {
   font-size: 11px;
