@@ -21,6 +21,7 @@ html {
 body {
   background-color: var(--color-main-background);
   padding: 20px;
+  font-family: 'Outfit', sans-serif;
 }
 
 .card {
@@ -46,7 +47,6 @@ body {
 }
 
 .description {
-  font-family: 'Outfit', sans-serif;
   color: var(--color-primary-soft-blue);
   font-size: 1.1rem;
 }
@@ -54,6 +54,25 @@ body {
 .details {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.icons-text-align {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  color: var(--color-primary-cyan);
+}
+
+.icon {
+  margin: 0 10px;
+}
+
+.duration {
+  color: var(--color-primary-soft-blue);
 }
 
 .attribution {
