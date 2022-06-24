@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 * {
-  /* outline: dashed black 1px; */
+  outline: dashed black 1px;
   margin: 0;
   padding: 0;
 }
@@ -43,13 +43,17 @@ body {
 .main-title {
   font-family: 'Outfit', sans-serif;
   color: white;
-  font-size: 1.6rem;
+  font-size: 24px;
+}
+
+.main-title:hover {
+  color: var(--color-primary-cyan);
 }
 
 .description {
   color: var(--color-primary-soft-blue);
-  font-size: 1.1rem;
-  font-weight:300;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .details {
@@ -98,6 +102,10 @@ hr {
 .author-name {
   color: white;
   margin-left: 4px;
+}
+
+.author-name:hover {
+  color: var(--color-primary-cyan);
 }
 
 
