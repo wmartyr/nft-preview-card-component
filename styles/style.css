@@ -35,14 +35,43 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 385px;
-  min-width: 330px;
+  max-width: 350px;
+  min-width: 350px;
 }
 
 .main-image {
   width: 100%;
-  object-fit: contain;
   border-radius: 10px;
+  z-index: 10;
+}
+
+.overlay-tint {
+  background: rgba(0, 255, 247, 0.5);
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  opacity: 0;
+  z-index: 20;
+}
+
+.overlay-tint:hover{
+  opacity: 1;
+}
+
+.hover-eye {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-eye-image {
+  width: 50px;
+  height: 50px;
+  z-index: 15; 
 }
 
 .main-title {
@@ -54,6 +83,7 @@ body {
 .main-title:hover {
   color: var(--color-primary-cyan);
 }
+
 
 .description {
   color: var(--color-primary-soft-blue);
@@ -96,6 +126,7 @@ hr {
   align-items: center;
   color: var(--color-primary-soft-blue);
 }
+
 .author-avatar {
   width: 40px;
   height: 40px;
