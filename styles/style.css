@@ -22,16 +22,21 @@ body {
   background-color: var(--color-main-background);
   padding: 20px;
   font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   background-color: var(--color-card-background);
   border-radius: 15px;
-  padding: 20px;
   margin-top: 40px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 385px;
+  min-width: 330px;
 }
 
 .main-image {
