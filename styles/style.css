@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 * {
-  outline: dashed black 1px;
+  /* outline: dashed black 1px; */
   margin: 0;
   padding: 0;
 }
@@ -73,6 +73,12 @@ body {
 
 .duration {
   color: var(--color-primary-soft-blue);
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: var(--color-line);
 }
 
 .attribution {
