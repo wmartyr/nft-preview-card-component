@@ -56,7 +56,7 @@ body {
   z-index: 20;
 }
 
-.overlay-tint:hover{
+.overlay-tint:hover {
   opacity: 1;
 }
 
@@ -72,7 +72,7 @@ body {
 .hover-eye-image {
   width: 50px;
   height: 50px;
-  z-index: 15; 
+  z-index: 15;
 }
 
 .main-title {
