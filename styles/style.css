@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 * {
-  outline: dashed black 1px;
+  /* outline: dashed black 1px; */
   margin: 0;
   padding: 0;
 }
@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .card {
@@ -35,8 +36,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 350px;
-  min-width: 350px;
+  max-width: 280px;
+  min-width: 280px;
 }
 
 .main-image {
@@ -48,8 +49,8 @@ body {
 .overlay-tint {
   background: rgba(0, 255, 247, 0.5);
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 280px;
+  height: 280px;
   border-radius: 10px;
   opacity: 0;
   z-index: 20;
@@ -61,8 +62,8 @@ body {
 
 .hover-eye {
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 280px;
+  height: 280px;
   display: flex;
   justify-content: center;
   align-items: center;
