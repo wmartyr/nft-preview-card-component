@@ -34,7 +34,7 @@ Screenshot of the final result.
 ### Links
 
 - Solution URL: [https://github.com/wmartyr/nft-preview-card-component](https://github.com/wmartyr/nft-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://wmartyr.github.io/nft-preview-card-component/](https://wmartyr.github.io/nft-preview-card-component/)
 
 ## My process
 
